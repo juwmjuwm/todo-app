@@ -24,7 +24,7 @@ export default function App() {
 
   return (
     <div className={styles.container}>
-      <h1 className={styles.title}>Todo List</h1>
+      <h1 className={styles.title}>Lista zadań</h1>
       <TodoInput onAdd={addTodo} />
       <TodoList todos={todos} onRemove={removeTodo} />
     </div>
