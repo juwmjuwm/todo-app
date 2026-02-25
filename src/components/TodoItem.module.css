@@ -1,0 +1,33 @@
+.item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 14px;
+  background: #f5f7fa;
+  border-radius: 8px;
+  border: 1.5px solid #e0e0e0;
+}
+
+.name {
+  font-size: 1rem;
+  color: #2d2d2d;
+  word-break: break-word;
+}
+
+.deleteButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #e53935;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 4px;
+  cursor: pointer;
+  transition: background 0.2s;
+  flex-shrink: 0;
+}
+
+.deleteButton:hover {
+  background: #b71c1c;
+}
